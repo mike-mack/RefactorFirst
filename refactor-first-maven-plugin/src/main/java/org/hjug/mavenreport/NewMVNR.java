@@ -32,7 +32,7 @@ import org.hjug.git.GitLogReader;
         requiresProject = false,
         threadSafe = true,
         inheritByDefault = false)
-public class RefactorFirstMavenReport extends AbstractMojo {
+public class NewMVNR extends AbstractMojo {
 
     private static final String THE_BEGINNING =
             "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n" + "  <head>\n"

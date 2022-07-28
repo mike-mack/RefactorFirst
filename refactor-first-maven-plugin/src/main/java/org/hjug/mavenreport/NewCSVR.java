@@ -27,7 +27,7 @@ import org.hjug.git.GitLogReader;
         requiresProject = false,
         threadSafe = true,
         inheritByDefault = false)
-public class RefactorFirstMavenCsvReport extends AbstractMojo {
+public class NewCSVR extends AbstractMojo {
 
     @Parameter(property = "showDetails")
     private boolean showDetails = false;

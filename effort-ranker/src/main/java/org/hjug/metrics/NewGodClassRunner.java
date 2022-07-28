@@ -13,7 +13,7 @@ import net.sourceforge.pmd.lang.java.JavaLanguageModule;
 
 // based on http://sdoulger.blogspot.com/2010/12/call-pmd-from-your-code-with-you-custom.html
 @Slf4j
-public class PMDGodClassRuleRunner {
+public class NewGodClassRunner {
 
     private SourceCodeProcessor sourceCodeProcessor;
     private Language java = LanguageRegistry.getLanguage(JavaLanguageModule.NAME);
