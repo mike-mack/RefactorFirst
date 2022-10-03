@@ -7,7 +7,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class GodClassParsingTest {
+public class CBOClassParsingTest {
 
     private Locale defaultLocale;
 
@@ -24,10 +24,8 @@ public class GodClassParsingTest {
 
     @Test
     void test() {
-        String result = "Possible God Class (WMC=9200, ATFD=1,700, TCC=4.597%)";
-        GodClass god = new GodClass("a", "a.txt", "org.hjug", result);
-        assertEquals(Integer.valueOf(9200), god.getWmc());
-        assertEquals(Integer.valueOf(1700), god.getAtfd());
-        assertEquals(Float.valueOf(4.597f), god.getTcc());
+        String result = "A value of 20 may denote a high amount of coupling within the class";
+        CBOClass cboClass = new CBOClass("a", "a.txt", "org.hjug", result);
+        assertEquals(Integer.valueOf(20), cboClass.getCouplingCount());
     }
 }
