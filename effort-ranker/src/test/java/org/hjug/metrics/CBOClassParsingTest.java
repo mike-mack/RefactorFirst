@@ -9,6 +9,8 @@ import org.junit.jupiter.api.Test;
 
 public class CBOClassParsingTest {
 
+    private String unused;
+
     private Locale defaultLocale;
 
     @BeforeEach
